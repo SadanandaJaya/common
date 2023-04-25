@@ -9,8 +9,8 @@
   "license": "MIT",
   "scripts": {
     "clean": "del ./build/*",
-    "build": "yarn run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && git push && yarn version --patch && yarn run build && yarn publish"
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m \"Updates\" && git push && npm version patch && npm run build && npm publish"
   },
   "dependencies": {
     "@types/cookie-session": "^2.0.44",

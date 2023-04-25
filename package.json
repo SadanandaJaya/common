@@ -1,6 +1,6 @@
 {
   "name": "@sstickets1/common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
@@ -12,7 +12,6 @@
     "build": "yarn run clean && tsc",
     "pub": "git add . && git commit -m \"Updates\" && git push && yarn version --patch && yarn run build && yarn publish"
   },
-  
   "dependencies": {
     "@types/cookie-session": "^2.0.44",
     "@types/express": "^4.17.17",

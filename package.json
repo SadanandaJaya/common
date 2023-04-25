@@ -12,6 +12,7 @@
     "build": "yarn run clean && tsc",
     "pub": "git add . && git commit -m \"Updates\" && git push && yarn version --patch && yarn run build && yarn publish"
   },
+  
   "dependencies": {
     "@types/cookie-session": "^2.0.44",
     "@types/express": "^4.17.17",

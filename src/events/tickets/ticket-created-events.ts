@@ -1,4 +1,4 @@
-import { Subjects } from "../assets/subjects";
+import { Subjects } from "../enums/subjects";
 
 export interface TicketCreatedEvent {
   subject: Subjects.TicketCreated;
@@ -9,4 +9,3 @@ export interface TicketCreatedEvent {
     userId: string;
   };
 }
-

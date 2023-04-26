@@ -1,4 +1,4 @@
-import { Subjects } from "../assets/subjects";
+import { Subjects } from "../enums/subjects";
 export interface TicketUpdatedEvents {
     subject: Subjects.TicketUpdated;
     data: {

@@ -13,3 +13,4 @@ export * from "./events/base-classes/base-publisher";
 export * from "./events/enums/subjects";
 export * from "./events/tickets/ticket-created-events";
 export * from "./events/tickets/ticket-updated-events";
+export * from "./events/enums/order-stauts";

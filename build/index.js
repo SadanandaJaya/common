@@ -29,3 +29,4 @@ __exportStar(require("./events/base-classes/base-publisher"), exports);
 __exportStar(require("./events/enums/subjects"), exports);
 __exportStar(require("./events/tickets/ticket-created-events"), exports);
 __exportStar(require("./events/tickets/ticket-updated-events"), exports);
+__exportStar(require("./events/enums/order-stauts"), exports);

@@ -1,7 +1,7 @@
 import { OrderStatus } from "../enums/order-stauts";
 import { Subjects } from "../enums/subjects";
 
-export interface IOrderCreatedEvent {
+export interface OrderCreatedEvent {
   subject: Subjects.OrderCreated;
   data: {
     id: string;

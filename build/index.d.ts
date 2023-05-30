@@ -16,3 +16,4 @@ export * from "./events/tickets/ticket-created-events";
 export * from "./events/tickets/ticket-updated-events";
 export * from "./events/orders/order-cancelled-event";
 export * from "./events/orders/order-created-event";
+export * from "./events/expiration/expiration-complete-event";

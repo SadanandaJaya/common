@@ -32,3 +32,4 @@ __exportStar(require("./events/tickets/ticket-created-events"), exports);
 __exportStar(require("./events/tickets/ticket-updated-events"), exports);
 __exportStar(require("./events/orders/order-cancelled-event"), exports);
 __exportStar(require("./events/orders/order-created-event"), exports);
+__exportStar(require("./events/expiration/expiration-complete-event"), exports);
